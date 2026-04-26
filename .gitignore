@@ -1,0 +1,67 @@
+### Build Outputs ###
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Logs ###
+*.log
+logs/
+boot.log
+application.log
+server.log
+startup.log
+
+### Generated Files ###
+.apt_generated
+.apt_generated_tests
+.factorypath
+
+### STS (Spring Tool Suite) ###
+.classpath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+.ideavscode/
+*.iws
+*.iml
+*.ipr
+*.iws
+*.iml
+
+### VS Code ###
+.vscode/
+!.vscode/extensions.json
+
+### NetBeans ###
+/nbproject/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Temporary & Debug Files ###
+*.tmp
+*.txt
+!HELP.md
+*.bak
+*.swp
+*.swo
+
+### Project-specific ###
+uploads/
+.DS_Store
+Thumbs.db
+
+### Environment Variables (NEVER COMMIT) ###
+.env
+.env.local
+.env.*.local
+.env.production
